@@ -11,6 +11,7 @@ www.udemy.com/understanding-typescript
 ```npm install```
 
 * To compile .ts files into .js: 
+
 ```sudo npm -g install typescript```
 ```tsc 'file-name.ts'```
 
