@@ -22,7 +22,9 @@ www.udemy.com/understanding-typescript
 #### Usefull links
 
 [Typescript]
+
 You can find a detailed documentation on the TypeScript Compiler Config File: [Tsconfig.json].
+
 Detailes on the Compiler Options can be found here: [Compiler Options].
 
 
