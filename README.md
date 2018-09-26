@@ -13,6 +13,7 @@ www.udemy.com/understanding-typescript
 * To compile .ts files into .js: 
 
 ```sudo npm -g install typescript```
+
 ```tsc 'file-name.ts'```
 
 #### Initialice a live server
