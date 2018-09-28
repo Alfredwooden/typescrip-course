@@ -48,4 +48,35 @@ const countdown = (start: number = 10): void => {
     }
     console.log('Done!', start);
 };
-countdown(20);
+countdown();
+
+
+// Rest & Spread
+console.log('REST & SPREAD');
+// '...' SPREAD OPERATOR
+const numbers = [1, 2, 5, 66, 31, 99];
+console.log(Math.max(...numbers)); 
+
+// '...' REST OPERATOR
+function makeArray(...args: number[]) { 
+    return args;
+};
+console.log(makeArray(1, 2, 3));
+
+// Destructuring
+console.log('DESTRUCTURING');
+
+const myHobbies = ['Cooking', 'Sports'];
+const [hobbie1, hobbie2] = myHobbies;
+console.log(hobbie1, hobbie2);
+
+const userData = {userName: 'Alfred', age: 25};
+const {userName: myName, age: myAge} = userData;
+console.log(myName, myAge);
+
+// Template literals
+const userName: string = 'Alfred';
+const greeting = `This is a heading.
+I'm ${userName}.
+This is so cool!.`;
+console.log(greeting);
